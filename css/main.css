@@ -2570,7 +2570,7 @@ hr {
 }
 @media (max-width: 767px) {
   .menu a::before {
-    display: block;
+    display: black;
   }
 }
 @media (max-width: 767px) {
