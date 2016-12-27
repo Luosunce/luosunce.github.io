@@ -2555,6 +2555,7 @@ hr {
   border: none;
   border-radius: 2px;
   transition-property: background;
+  color: black;
 }
 @media (max-width: 767px) {
   .menu .menu-item a {
