@@ -277,7 +277,7 @@ p {
   margin: 0 0 25px 0;
 }
 a {
-  color: #555;
+  color: #0d88bf;
   text-decoration: none;
   border-bottom: 1px solid #999;
   word-wrap: break-word;
@@ -287,7 +287,7 @@ a:hover {
   border-bottom-color: #222;
 }
 ul {
-  list-style: none;
+  list-style: initial;
 }
 blockquote {
   margin: 0;
@@ -1680,7 +1680,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #36b5ff;
+  background: #3ca845;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2555,6 +2555,7 @@ hr {
   border: none;
   border-radius: 2px;
   transition-property: background;
+  color: black;
 }
 @media (max-width: 767px) {
   .menu .menu-item a {
@@ -2569,7 +2570,7 @@ hr {
 }
 @media (max-width: 767px) {
   .menu a::before {
-    display: block;
+    display: black;
   }
 }
 @media (max-width: 767px) {
